@@ -1,0 +1,12 @@
+th,
+td {
+    border: 1px solid black;
+    padding: 2px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cur-p {
+    cursor: pointer !important;
+}

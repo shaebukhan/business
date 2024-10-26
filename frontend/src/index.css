@@ -1,0 +1,149 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+ /* //navbar css */
+
+ .navbar {
+   font-family: ' Poppins', sans-serif;
+   line-height: 26px;
+   text-transform: uppercase;
+   box-shadow: 0 8px 6px -6px gray;
+ }
+
+ .nav-link {
+   font-weight: 300 !important;
+ }
+
+
+
+ .navbar-brand {
+   font-weight: 700;
+   letter-spacing: 3px;
+   font-family: 'roboto', 'sans-serif';
+ }
+
+ .footerr {
+   color: #fff;
+   padding: 10px;
+   background: linear-gradient(to right, #434343, #000000);
+ }
+
+ .footerr a {
+   text-decoration: none;
+   color: gray;
+   padding: 7px;
+
+ }
+
+ .footerr a:hover {
+   color: #fff;
+   transition: 1s;
+   border-bottom: 1px solid #fff;
+ }
+
+ /* //Page not found  */
+ .pnf {
+   display: flex;
+   min-height: 70vh;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .pnf-title {
+   font-size: 100px;
+   font-weight: 700;
+ }
+
+ .pnf-heading {
+   font-weight: normal;
+ }
+
+ .pnf-btn {
+   color: black;
+   border: 1px solid black;
+   text-decoration: none;
+   padding: 10px;
+   margin-top: 10px;
+ }
+
+ .pnf-btn:hover {
+   transform: scale(1.3);
+   transition: 1s;
+   color: black;
+ }
+
+ .form-submit:hover {
+
+   transition: 0.8s;
+   background-color: purple !important;
+ }
+
+ /* Sub navbar  */
+ .sub-nav-main {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+
+
+ }
+
+ .sub-nav-item {
+   padding: 2px 30px;
+   border: 1px solid black;
+   text-decoration: none;
+   font-size: 20px;
+   color: #434343;
+ }
+
+ .sub-nav-item-active {
+   font-weight: bold;
+   color: #000000;
+ }
+
+ /* Sub navbar  */
+ /* table  */
+
+ .add-btn {
+   border: 2px solid black;
+   border-radius: 50%;
+   font-size: 26px;
+   height: 30px;
+   width: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   color: black;
+   font-weight: bold;
+   background-color: transparent;
+ }
+
+ .down {
+   border: none !important;
+ }
+
+ .ant-modal-close {
+   display: none !important;
+ }
+
+ #reconcileT th,
+ td {
+   padding: 2px 8px !important;
+ }
+
+ .inp-main {
+   gap: 30px;
+ }
+
+ .cur-p {
+   cursor: pointer;
+ }
